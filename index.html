@@ -7,21 +7,67 @@
       name="description"
       content="GIMPO / SARL GIMELEC POWER - solutions electriques et industrielles, automatisation, maintenance, moteurs, variateurs et tableaux electriques en Algerie."
     />
+    <meta
+      name="keywords"
+      content="GIMPO, GIMELEC POWER, solutions electriques, automatisation industrielle, maintenance, moteurs, variateurs, tableaux electriques, INVT, SIFANG, LAEG, Algerie"
+    />
+    <meta name="robots" content="index, follow" />
+    <meta name="theme-color" content="#2447f2" />
     <title>GIMPO | Solutions electriques industrielles</title>
+    <link rel="canonical" href="https://gimpo.dz/" />
+    <link rel="icon" type="image/jpeg" href="assets/logo.jpg" />
+
+    <!-- Open Graph -->
+    <meta
+      property="og:title"
+      content="GIMPO | Solutions electriques industrielles"
+    />
+    <meta
+      property="og:description"
+      content="GIMPO / SARL GIMELEC POWER - solutions electriques et industrielles, automatisation, maintenance, moteurs, variateurs et tableaux electriques en Algerie."
+    />
+    <meta property="og:image" content="assets/project-scada.jpg" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://gimpo.dz/" />
+    <meta property="og:site_name" content="GIMPO" />
+
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta
+      name="twitter:title"
+      content="GIMPO | Solutions electriques industrielles"
+    />
+    <meta
+      name="twitter:description"
+      content="GIMPO / SARL GIMELEC POWER - solutions electriques et industrielles, automatisation, maintenance, moteurs, variateurs et tableaux electriques en Algerie."
+    />
+    <meta name="twitter:image" content="assets/project-scada.jpg" />
+
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
       rel="stylesheet"
+      media="print"
+      onload="this.media = 'all'"
     />
     <link rel="stylesheet" href="styles.css" />
+
+    <!-- Preload critical resources -->
+    <link rel="preload" href="assets/logo.jpg" as="image" />
+    <link rel="preload" href="assets/project-scada.jpg" as="image" />
   </head>
   <body>
     <header class="site-header" data-header>
       <a class="brand" href="#top" aria-label="GIMPO accueil">
-        <img src="assets/logo.png" alt="GIMPO" />
+        <img src="assets/logo.jpg" alt="GIMPO" width="168" height="44" />
       </a>
-      <button class="nav-toggle" type="button" aria-label="Ouvrir le menu" data-nav-toggle>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Ouvrir le menu"
+        data-nav-toggle
+      >
         <span></span><span></span><span></span>
       </button>
       <nav class="main-nav" data-nav>
@@ -31,7 +77,18 @@
         <a href="#services">Services</a>
         <a href="#projects">References</a>
         <a href="#contact">Contact</a>
-        <a class="nav-cta" href="mailto:m.aitbelkacem@gimelec.com?subject=Demande%20de%20consultation%20GIMPO&body=Bonjour%20GIMPO,%0D%0A%0D%0AJe%20souhaite%20avoir%20plus%20d'informations%20sur%20vos%20solutions%20industrielles.%0D%0A%0D%0AMerci.">Ecrire</a>
+        <div class="lang-selector" data-lang-selector>
+          <button type="button" data-current-lang="fr">FR</button>
+          <div class="lang-dropdown">
+            <button type="button" data-lang="fr">Français</button>
+            <button type="button" data-lang="en">English</button>
+          </div>
+        </div>
+        <a
+          class="nav-cta"
+          href="mailto:m.aitbelkacem@gimelec.com?subject=Demande%20de%20consultation%20GIMPO&body=Bonjour%20GIMPO,%0D%0A%0D%0AJe%20souhaite%20avoir%20plus%20d'informations%20sur%20vos%20solutions%20industrielles.%0D%0A%0D%0AMerci."
+          >Ecrire</a
+        >
       </nav>
     </header>
 
@@ -39,22 +96,28 @@
       <section class="hero">
         <div class="hero-copy">
           <p class="eyebrow">GIMPO / SARL GIMELEC POWER</p>
-          <h1>Solutions electriques, automatisation et maintenance pour l'industrie.</h1>
+          <h1>
+            Solutions electriques, automatisation et maintenance pour
+            l'industrie.
+          </h1>
           <p>
-            Basee en Algerie, GIMPO assure la distribution, l'integration, l'installation et
-            la maintenance d'equipements electriques et d'automatismes industriels pour les
-            secteurs de l'energie, des infrastructures et de l'industrie.
+            Basee en Algerie, GIMPO assure la distribution, l'integration,
+            l'installation et la maintenance d'equipements electriques et
+            d'automatismes industriels pour les secteurs de l'energie, des
+            infrastructures et de l'industrie.
           </p>
           <div class="hero-actions">
             <a class="btn primary" href="#contact">Demander une consultation</a>
-            <button class="btn glass" type="button" data-copy="+213560954332">Copier telephone</button>
+            <button class="btn glass" type="button" data-copy="+213560954332">
+              Copier telephone
+            </button>
             <a class="btn ghost" href="#products">Explorer les produits</a>
           </div>
         </div>
         <div class="hero-panel" aria-label="Indicateurs GIMPO">
           <div>
             <strong data-count="35">0</strong>
-            <span>ans d'experience technique depuis 1990</span>
+            <span>+ ans d'experience</span>
           </div>
           <div>
             <strong><span data-count="4200">0</span> m2</strong>
@@ -62,7 +125,9 @@
           </div>
           <div>
             <strong>CE / ISO / IEC</strong>
-            <span>produits et solutions conformes aux normes internationales</span>
+            <span
+              >produits et solutions conformes aux normes internationales</span
+            >
           </div>
         </div>
       </section>
@@ -73,10 +138,11 @@
           <h2>Fournir des solutions fiables, performantes et durables.</h2>
         </div>
         <p>
-          GIMPO accompagne ses clients de l'etude a la mise en service: equipement electrique,
-          electricite industrielle, automatisation, controle, maintenance et assistance
-          technique. L'entreprise s'appuie sur des partenariats solides avec des fabricants
-          mondialement reconnus.
+          GIMPO accompagne ses clients de l'etude a la mise en service:
+          equipement electrique, electricite industrielle, automatisation,
+          controle, maintenance et assistance technique. L'entreprise s'appuie
+          sur des partenariats solides avec des fabricants mondialement
+          reconnus.
         </p>
       </section>
 
@@ -89,22 +155,34 @@
           <article>
             <span>01</span>
             <h3>Hydraulique & dessalement</h3>
-            <p>Pompage, variateurs moyenne tension, continuite d'alimentation et supervision.</p>
+            <p>
+              Pompage, variateurs moyenne tension, continuite d'alimentation et
+              supervision.
+            </p>
           </article>
           <article>
             <span>02</span>
             <h3>Petrole & gaz</h3>
-            <p>Entrainements, moteurs, demarreurs et assistance pour applications critiques.</p>
+            <p>
+              Entrainements, moteurs, demarreurs et assistance pour applications
+              critiques.
+            </p>
           </article>
           <article>
             <span>03</span>
             <h3>Energie</h3>
-            <p>Production, distribution, tableaux, generateurs, commandes et mise en service.</p>
+            <p>
+              Production, distribution, tableaux, generateurs, commandes et mise
+              en service.
+            </p>
           </article>
           <article>
             <span>04</span>
             <h3>Ciment & industrie lourde</h3>
-            <p>Maintenance de machines tournantes, moteurs BT/MT et diagnostic terrain.</p>
+            <p>
+              Maintenance de machines tournantes, moteurs BT/MT et diagnostic
+              terrain.
+            </p>
           </article>
         </div>
       </section>
@@ -112,80 +190,130 @@
       <section id="products" class="products band">
         <div class="section-heading">
           <p class="eyebrow">Produits & technologies</p>
-          <h2>Carrousels produits pour les besoins critiques de vos installations.</h2>
+          <h2>
+            Carrousels produits pour les besoins critiques de vos installations.
+          </h2>
         </div>
         <div class="carousel-shell" data-carousel>
           <div class="carousel-top">
             <div class="carousel-tabs" role="tablist">
-              <button class="active" type="button" data-slide="0">INVT Variateurs</button>
+              <button class="active" type="button" data-slide="0">
+                INVT Variateurs
+              </button>
               <button type="button" data-slide="1">INVT UPS</button>
-              <button type="button" data-slide="2">Sifang SCADA</button>
-              <button type="button" data-slide="3">Sifang demarreurs</button>
+              <button type="button" data-slide="2">SIFANG SCADA</button>
+              <button type="button" data-slide="3">SIFANG demarreurs</button>
               <button type="button" data-slide="4">LAEG moteurs</button>
             </div>
             <div class="carousel-controls">
-              <button type="button" aria-label="Produit precedent" data-prev>&larr;</button>
-              <button type="button" aria-label="Produit suivant" data-next>&rarr;</button>
+              <button type="button" aria-label="Produit precedent" data-prev>
+                &larr;
+              </button>
+              <button type="button" aria-label="Produit suivant" data-next>
+                &rarr;
+              </button>
             </div>
           </div>
           <div class="carousel-track" data-track>
             <article class="product-slide active">
-              <img src="assets/gd5000-project.jpg" alt="Variateurs moyenne tension INVT GD5000" />
+              <img
+                src="assets/gd5000-project.jpg"
+                alt="Variateurs moyenne tension INVT GD5000"
+                width="600"
+                height="400"
+                loading="lazy"
+              />
               <div>
                 <p class="eyebrow">INVT GD350 / GD5000</p>
                 <h3>Variateurs basse et moyenne tension</h3>
                 <p>
-                  Solutions de controle moteur pour pompes, cimenteries, energie et process
-                  industriels. Les series INVT assurent precision, efficacite energetique et
-                  communications ouvertes.
+                  Solutions de controle moteur pour pompes, cimenteries, energie
+                  et process industriels. Les series INVT assurent precision,
+                  efficacite energetique et communications ouvertes.
                 </p>
                 <ul>
-                  <li>Controle vectoriel avance pour moteurs synchrones et asynchrones</li>
-                  <li>GD5000: rendement superieur a 97% sur applications de pompage</li>
-                  <li>Modbus-TCP, Profibus, Profinet, EtherNet/IP et CANopen</li>
+                  <li>
+                    Controle vectoriel avance pour moteurs synchrones et
+                    asynchrones
+                  </li>
+                  <li>
+                    GD5000: rendement superieur a 97% sur applications de
+                    pompage
+                  </li>
+                  <li>
+                    Modbus-TCP, Profibus, Profinet, EtherNet/IP et CANopen
+                  </li>
                 </ul>
               </div>
             </article>
             <article class="product-slide">
-              <img src="assets/invt-drives-ups.jpg" alt="UPS modulaires INVT" />
+              <img
+                src="assets/invt-drives-ups.jpg"
+                alt="UPS modulaires INVT"
+                width="600"
+                height="400"
+                loading="lazy"
+              />
               <div>
                 <p class="eyebrow">INVT UPS</p>
                 <h3>Alimentation sans interruption modulaire</h3>
                 <p>
-                  UPS pour data centers, industries et infrastructures sensibles avec architecture
-                  N+X redondante, maintenance simplifiee et supervision intelligente.
+                  UPS pour data centers, industries et infrastructures sensibles
+                  avec architecture N+X redondante, maintenance simplifiee et
+                  supervision intelligente.
                 </p>
                 <ul>
                   <li>Technologie double conversion en ligne VFI</li>
-                  <li>Modules hot-swappables pour entretien sans interruption</li>
-                  <li>Extension flexible de 25 a 900 kVA selon le besoin du site</li>
+                  <li>
+                    Modules hot-swappables pour entretien sans interruption
+                  </li>
+                  <li>
+                    Extension flexible de 25 a 900 kVA selon le besoin du site
+                  </li>
                 </ul>
               </div>
             </article>
             <article class="product-slide">
-              <img src="assets/project-scada.jpg" alt="SCADA Sifang pour controle industriel" />
+              <img
+                src="assets/project-scada.jpg"
+                alt="SCADA SIFANG pour controle industriel"
+                width="600"
+                height="400"
+                loading="lazy"
+              />
               <div>
-                <p class="eyebrow">Sifang / Syfang</p>
+                <p class="eyebrow">SIFANG</p>
                 <h3>SCADA, controle et cellules industrielles</h3>
                 <p>
-                  Integration de supervision et de controle pour installations electriques:
-                  visualisation process, suivi des alarmes, commande et diagnostic des equipements.
+                  Integration de supervision et de controle pour installations
+                  electriques: visualisation process, suivi des alarmes,
+                  commande et diagnostic des equipements.
                 </p>
                 <ul>
                   <li>Controle de centrales, pompes et lignes de production</li>
                   <li>Interface operateur pour exploitation et maintenance</li>
-                  <li>Integration avec tableaux, cellules et automatismes existants</li>
+                  <li>
+                    Integration avec tableaux, cellules et automatismes
+                    existants
+                  </li>
                 </ul>
               </div>
             </article>
             <article class="product-slide">
-              <img src="assets/project-hounaine.jpg" alt="Demarreurs progressifs Sifang" />
+              <img
+                src="assets/project-hounaine.jpg"
+                alt="Demarreurs progressifs SIFANG"
+                width="600"
+                height="400"
+                loading="lazy"
+              />
               <div>
-                <p class="eyebrow">Sifang / Syfang</p>
+                <p class="eyebrow">SIFANG</p>
                 <h3>Demarreurs progressifs et assistance variateurs</h3>
                 <p>
-                  GIMPO intervient sur les produits Sifang, INVT et autres marques: reparation,
-                  parametrage, essais, demarrage et support terrain pour machines critiques.
+                  GIMPO intervient sur les produits SIFANG, INVT et autres
+                  marques: reparation, parametrage, essais, demarrage et support
+                  terrain pour machines critiques.
                 </p>
                 <ul>
                   <li>Reparation et parametrage de demarreurs progressifs</li>
@@ -195,40 +323,61 @@
               </div>
             </article>
             <article class="product-slide">
-              <img src="assets/laeg-motors.jpg" alt="Moteurs electriques LAEG" />
+              <img
+                src="assets/laeg-motors.jpg"
+                alt="Moteurs electriques LAEG"
+                width="600"
+                height="400"
+                loading="lazy"
+              />
               <div>
                 <p class="eyebrow">LAEG</p>
                 <h3>Moteurs electriques industriels</h3>
                 <p>
-                  Gammes de moteurs basse tension, moteurs speciaux, moteurs universels et solutions
-                  PM Drive & Control pour applications electromechaniques et automation.
+                  Gammes de moteurs basse tension, moteurs speciaux, moteurs
+                  universels et solutions PM Drive & Control pour applications
+                  electromechaniques et automation.
                 </p>
                 <ul>
-                  <li>Moteurs basse tension, PMSM, SynRM et moteurs speciaux</li>
-                  <li>Approche orientee performance, efficacite et faible carbone</li>
-                  <li>Support GIMPO: choix, installation, maintenance et remise a neuf</li>
+                  <li>
+                    Moteurs basse tension, PMSM, SynRM et moteurs speciaux
+                  </li>
+                  <li>
+                    Approche orientee performance, efficacite et faible carbone
+                  </li>
+                  <li>
+                    Support GIMPO: choix, installation, maintenance et remise a
+                    neuf
+                  </li>
                 </ul>
               </div>
             </article>
           </div>
-          <div class="carousel-dots" data-dots aria-label="Navigation produits"></div>
+          <div
+            class="carousel-dots"
+            data-dots
+            aria-label="Navigation produits"
+          ></div>
         </div>
       </section>
 
       <section id="partners" class="partners-detail">
         <div class="section-heading">
           <p class="eyebrow">Partenaires</p>
-          <h2>Trois partenaires techniques pour une offre industrielle coherente.</h2>
+          <h2>
+            Trois partenaires techniques pour une offre industrielle coherente.
+          </h2>
         </div>
         <div class="partner-cards">
           <article>
             <span>INVT</span>
             <h3>Automation, variateurs et UPS</h3>
             <p>
-              INVT est un fournisseur international de solutions d'automatisation industrielle,
-              d'entrainements electriques et d'alimentation securisee. Pour GIMPO, la marque
-              couvre les variateurs GD350/GD5000 et les UPS modulaires destines aux applications
-              critiques.
+              INVT est un fournisseur international de solutions
+              d'automatisation industrielle, d'entrainements electriques et
+              d'alimentation securisee. Pour GIMPO, la marque couvre les
+              variateurs GD350/GD5000 et les UPS modulaires destines aux
+              applications critiques.
             </p>
             <ul>
               <li>Variateurs de frequence BT/MT</li>
@@ -240,9 +389,10 @@
             <span>LAEG</span>
             <h3>Moteurs electriques & electromechanique</h3>
             <p>
-              LAEG est presentee dans les supports GIMPO comme une entreprise engagee dans les
-              moteurs electriques et les inverters, avec une vision orientee electromechanique,
-              automation et solutions basse carbone.
+              LAEG est presentee dans les supports GIMPO comme une entreprise
+              engagee dans les moteurs electriques et les inverters, avec une
+              vision orientee electromechanique, automation et solutions basse
+              carbone.
             </p>
             <ul>
               <li>Moteurs basse tension et moteurs speciaux</li>
@@ -254,9 +404,10 @@
             <span>SIFANG</span>
             <h3>Demarreurs, variateurs & controle</h3>
             <p>
-              Sifang fait partie des marques sur lesquelles GIMPO intervient pour la maintenance,
-              le parametrage et la mise en service. L'offre couvre notamment les demarreurs
-              progressifs, la supervision et les applications de controle industriel.
+              SIFANG fait partie des marques sur lesquelles GIMPO intervient
+              pour la maintenance, le parametrage et la mise en service. L'offre
+              couvre notamment les demarreurs progressifs, la supervision et les
+              applications de controle industriel.
             </p>
             <ul>
               <li>Demarreurs progressifs et assistance terrain</li>
@@ -264,6 +415,42 @@
               <li>Integration avec cellules et tableaux electriques</li>
             </ul>
           </article>
+        </div>
+      </section>
+
+      <section class="official-partners band">
+        <div class="section-heading">
+          <p class="eyebrow">Partenaires Officiels</p>
+          <h2>Nos partenaires strategiques mondiaux.</h2>
+        </div>
+        <div class="official-partners-grid">
+          <a
+            href="https://www.invt.com.cn/"
+            target="_blank"
+            rel="noreferrer"
+            class="partner-logo-card"
+          >
+            <div class="partner-logo-placeholder">INVT</div>
+            <span>INVT - Automation & Drives</span>
+          </a>
+          <a
+            href="https://www.laeg.com/"
+            target="_blank"
+            rel="noreferrer"
+            class="partner-logo-card"
+          >
+            <div class="partner-logo-placeholder">LAEG</div>
+            <span>LAEG - Electric Motors</span>
+          </a>
+          <a
+            href="https://www.sifang.com/"
+            target="_blank"
+            rel="noreferrer"
+            class="partner-logo-card"
+          >
+            <div class="partner-logo-placeholder">SIFANG</div>
+            <span>SIFANG - Control Systems</span>
+          </a>
         </div>
       </section>
 
@@ -275,28 +462,94 @@
         <div class="service-grid">
           <article>
             <h3>Mise en service & demarrage</h3>
-            <p>Commissioning sur site ou en atelier, parametrage, tests, demarrage et assistance client.</p>
+            <p>
+              Commissioning sur site ou en atelier, parametrage, tests,
+              demarrage et assistance client.
+            </p>
           </article>
           <article>
             <h3>Maintenance moteurs BT/MT</h3>
-            <p>Rebobinage stator/rotor, roulements, paliers lisses, charbons, accessoires et peinture.</p>
+            <p>
+              Rebobinage stator/rotor, roulements, paliers lisses, charbons,
+              accessoires et peinture.
+            </p>
           </article>
           <article>
             <h3>Variateurs & demarreurs</h3>
-            <p>Reparation, revision, parametrage, optimisation applicative et formation produits INVT.</p>
+            <p>
+              Reparation, revision, parametrage, optimisation applicative et
+              formation produits INVT.
+            </p>
           </article>
           <article>
             <h3>Tableaux & automation</h3>
-            <p>Fabrication, installation, modification, mise en service et maintenance de tableaux electriques.</p>
+            <p>
+              Fabrication, installation, modification, mise en service et
+              maintenance de tableaux electriques.
+            </p>
           </article>
           <article>
             <h3>Diagnostic industriel</h3>
-            <p>Analyse vibratoire, equilibrage dynamique, controle dimensionnel, essais et analyses techniques.</p>
+            <p>
+              Analyse vibratoire, equilibrage dynamique, controle dimensionnel,
+              essais et analyses techniques.
+            </p>
           </article>
           <article>
             <h3>Pieces de rechange</h3>
-            <p>Fourniture de pieces d'origine et remise a neuf mecanique/electrique des equipements.</p>
+            <p>
+              Fourniture de pieces d'origine et remise a neuf
+              mecanique/electrique des equipements.
+            </p>
           </article>
+        </div>
+      </section>
+
+      <section class="trusted-by band">
+        <div class="section-heading">
+          <p class="eyebrow">Ils nous font confiance</p>
+          <h2>Nos clients dans l'industrie.</h2>
+        </div>
+        <div class="clients-grid">
+          <div class="client-logo">Hounaine</div>
+          <div class="client-logo">Chlef Cement Plant</div>
+          <div class="client-logo">SORASUCRE</div>
+          <div class="client-logo">Sonatrach</div>
+          <div class="client-logo">Cosider</div>
+          <div class="client-logo">Algérienne des Eaux</div>
+        </div>
+      </section>
+
+      <section class="certifications band">
+        <div class="section-heading">
+          <p class="eyebrow">Certifications</p>
+          <h2>Conformite aux normes internationales.</h2>
+        </div>
+        <div class="certifications-grid">
+          <div class="certification-badge">
+            <div class="cert-icon">CE</div>
+            <h3>Conformite Europeenne</h3>
+            <p>
+              Nos produits et solutions respectent les exigences de securite et
+              de performance de l'Union Europeenne.
+            </p>
+          </div>
+          <div class="certification-badge">
+            <div class="cert-icon">ISO</div>
+            <h3>ISO 9001</h3>
+            <p>
+              Systeme de management de la qualite certifie pour garantir des
+              services et produits de haute qualite.
+            </p>
+          </div>
+          <div class="certification-badge">
+            <div class="cert-icon">IEC</div>
+            <h3>Normes IEC</h3>
+            <p>
+              Conformite aux normes internationales de la Commission
+              Electrotechnique Internationale pour l'electrotechnique.
+            </p>
+          </div>
         </div>
       </section>
 
@@ -316,31 +569,177 @@
 
       <section id="projects" class="projects">
         <div class="section-heading">
-          <p class="eyebrow">References</p>
-          <h2>Quelques projets realises.</h2>
+          <p class="eyebrow" data-i18n="references.eyebrow">References</p>
+          <h2 data-i18n="references.title">Quelques projets realises.</h2>
         </div>
-        <div class="project-grid">
-          <article>
-            <img src="assets/project-hounaine.jpg" alt="Projet Hounaine dessalement" />
-            <div>
-              <h3>Usine de dessalement de Hounaine</h3>
-              <p>17 demarreurs progressifs, 10 variateurs de frequence, programmation et mise en service.</p>
-            </div>
-          </article>
-          <article>
-            <img src="assets/project-chlef.jpg" alt="Projet cimenterie Chlef" />
-            <div>
-              <h3>Cimenterie CHLEF</h3>
-              <p>Assistance installation, mise en service et demarrage d'un moteur 3700 kW.</p>
-            </div>
-          </article>
-          <article>
-            <img src="assets/project-sorasucre.jpg" alt="Projet SORASUCRE" />
-            <div>
-              <h3>SORASUCRE Guelma</h3>
-              <p>EPC complet: generateurs WEG GPW500, turbines TGM, MCC, commandes et SCADA.</p>
-            </div>
-          </article>
+        <div class="projects-carousel">
+          <div class="projects-track" data-projects-track>
+            <article
+              class="project-card"
+              data-project-card
+              data-i18n-section="project-hounaine"
+            >
+              <img
+                src="assets/project-hounaine.jpg"
+                alt="Projet Hounaine dessalement"
+                width="400"
+                height="250"
+                loading="lazy"
+              />
+              <div class="project-content">
+                <h3 data-i18n="project-hounaine.title">
+                  Usine de dessalement de Hounaine
+                </h3>
+                <p class="project-summary" data-i18n="project-hounaine.summary">
+                  17 demarreurs progressifs, 10 variateurs de frequence,
+                  programmation et mise en service.
+                </p>
+                <div class="project-details">
+                  <p data-i18n="project-hounaine.details">
+                    Projet complet d'electrification et d'automatisation pour
+                    l'usine de dessalement. Installation de 17 demarreurs
+                    progressifs SIFANG, 10 variateurs de frequence INVT, systeme
+                    SCADA complet, programmation PLC et mise en service.
+                    Capacite de traitement: 50,000 m3/jour.
+                  </p>
+                  <ul>
+                    <li data-i18n="project-hounaine.feature1">
+                      17 demarreurs progressifs SIFANG
+                    </li>
+                    <li data-i18n="project-hounaine.feature2">
+                      10 variateurs de frequence INVT
+                    </li>
+                    <li data-i18n="project-hounaine.feature3">
+                      Systeme SCADA complet
+                    </li>
+                    <li data-i18n="project-hounaine.feature4">
+                      Programmation PLC Siemens
+                    </li>
+                  </ul>
+                </div>
+                <button
+                  class="btn expand-btn"
+                  data-expand-btn
+                  data-i18n="common.expand"
+                >
+                  Voir plus
+                </button>
+              </div>
+            </article>
+            <article
+              class="project-card"
+              data-project-card
+              data-i18n-section="project-chlef"
+            >
+              <img
+                src="assets/project-chlef.jpg"
+                alt="Projet cimenterie Chlef"
+                width="400"
+                height="250"
+                loading="lazy"
+              />
+              <div class="project-content">
+                <h3 data-i18n="project-chlef.title">Cimenterie CHLEF</h3>
+                <p class="project-summary" data-i18n="project-chlef.summary">
+                  Assistance installation, mise en service et demarrage d'un
+                  moteur 3700 kW.
+                </p>
+                <div class="project-details">
+                  <p data-i18n="project-chlef.details">
+                    Assistance technique complete pour l'installation et le
+                    demarrage d'un moteur synchrone 3700 kW pour la cimenterie
+                    de Chlef. Mise en service, essais, parametrage et formation
+                    du personnel local. Moteur fourni par WEG GPW500.
+                  </p>
+                  <ul>
+                    <li data-i18n="project-chlef.feature1">
+                      Moteur synchrone 3700 kW
+                    </li>
+                    <li data-i18n="project-chlef.feature2">
+                      Mise en service complete
+                    </li>
+                    <li data-i18n="project-chlef.feature3">
+                      Essais et parametrage
+                    </li>
+                    <li data-i18n="project-chlef.feature4">
+                      Formation personnel
+                    </li>
+                  </ul>
+                </div>
+                <button
+                  class="btn expand-btn"
+                  data-expand-btn
+                  data-i18n="common.expand"
+                >
+                  Voir plus
+                </button>
+              </div>
+            </article>
+            <article
+              class="project-card"
+              data-project-card
+              data-i18n-section="project-sorasucre"
+            >
+              <img
+                src="assets/project-sorasucre.jpg"
+                alt="Projet SORASUCRE"
+                width="400"
+                height="250"
+                loading="lazy"
+              />
+              <div class="project-content">
+                <h3 data-i18n="project-sorasucre.title">SORASUCRE Guelma</h3>
+                <p
+                  class="project-summary"
+                  data-i18n="project-sorasucre.summary"
+                >
+                  EPC complet: generateurs WEG GPW500, turbines TGM, MCC,
+                  commandes et SCADA.
+                </p>
+                <div class="project-details">
+                  <p data-i18n="project-sorasucre.details">
+                    Projet EPC complet pour la sucrerie SORASUCRE Guelma.
+                    Fourniture et installation de generateurs WEG GPW500,
+                    turbines TGM, armoires MCC, systeme de commande electrique
+                    et SCADA. Integration complete avec l'existant.
+                  </p>
+                  <ul>
+                    <li data-i18n="project-sorasucre.feature1">
+                      Generateurs WEG GPW500
+                    </li>
+                    <li data-i18n="project-sorasucre.feature2">Turbines TGM</li>
+                    <li data-i18n="project-sorasucre.feature3">Armoires MCC</li>
+                    <li data-i18n="project-sorasucre.feature4">
+                      Systeme SCADA
+                    </li>
+                  </ul>
+                </div>
+                <button
+                  class="btn expand-btn"
+                  data-expand-btn
+                  data-i18n="common.expand"
+                >
+                  Voir plus
+                </button>
+              </div>
+            </article>
+          </div>
+          <div class="projects-controls">
+            <button
+              type="button"
+              aria-label="Projet precedent"
+              data-projects-prev
+            >
+              &larr;
+            </button>
+            <button
+              type="button"
+              aria-label="Projet suivant"
+              data-projects-next
+            >
+              &rarr;
+            </button>
+          </div>
         </div>
       </section>
 
@@ -368,7 +767,13 @@
           <div class="map-card">
             <h3>Centre des affaires El Qods</h3>
             <p>Bu 39 08, Cheraga, Alger</p>
-            <a class="btn primary" href="https://www.google.com/maps/search/?api=1&query=Centre%20des%20affaires%20El%20Qods%20Cheraga%20Alger" target="_blank" rel="noreferrer">Ouvrir Google Maps</a>
+            <a
+              class="btn primary"
+              href="https://www.google.com/maps/search/?api=1&query=Centre%20des%20affaires%20El%20Qods%20Cheraga%20Alger"
+              target="_blank"
+              rel="noreferrer"
+              >Ouvrir Google Maps</a
+            >
           </div>
           <iframe
             title="Localisation GIMPO - Centre des affaires El Qods Cheraga Alger"
@@ -382,11 +787,24 @@
 
     <footer id="contact" class="footer">
       <div>
-        <img src="assets/logo.png" alt="GIMPO" />
-        <p>Solutions electriques et industrielles pour une industrie moderne, connectee et performante.</p>
+        <img src="assets/logo.jpg" alt="GIMPO" width="168" height="44" />
+        <p>
+          Solutions electriques et industrielles pour une industrie moderne,
+          connectee et performante.
+        </p>
         <div class="footer-links">
-          <a href="https://www.linkedin.com/company/110623019/admin/dashboard/" target="_blank" rel="noreferrer">LinkedIn GIMPO</a>
-          <a href="https://www.google.com/maps/search/?api=1&query=Centre%20des%20affaires%20El%20Qods%20Cheraga%20Alger" target="_blank" rel="noreferrer">Localisation</a>
+          <a
+            href="https://www.linkedin.com/company/110623019/"
+            target="_blank"
+            rel="noreferrer"
+            >LinkedIn GIMPO</a
+          >
+          <a
+            href="https://www.google.com/maps/search/?api=1&query=Centre%20des%20affaires%20El%20Qods%20Cheraga%20Alger"
+            target="_blank"
+            rel="noreferrer"
+            >Localisation</a
+          >
         </div>
       </div>
       <div class="contact-card">
@@ -405,16 +823,65 @@
           </a>
           <button type="button" data-copy="+2130550480163">Copier</button>
         </div>
-        <a class="mail-card" href="mailto:m.aitbelkacem@gimelec.com?subject=Demande%20de%20consultation%20GIMPO&body=Bonjour%20GIMPO,%0D%0A%0D%0AJe%20souhaite%20vous%20contacter%20concernant%20:%0D%0A-%20Variateurs%20INVT%0D%0A-%20UPS%20INVT%0D%0A-%20SCADA%20/%20cellules%20Sifang%0D%0A-%20Demarreurs%20Sifang%0D%0A-%20Moteurs%20LAEG%0D%0A%0D%0AMerci%20de%20me%20recontacter.%0D%0A">
+        <a
+          class="mail-card"
+          href="mailto:m.aitbelkacem@gimelec.com?subject=Demande%20de%20consultation%20GIMPO&body=Bonjour%20GIMPO,%0D%0A%0D%0AJe%20souhaite%20vous%20contacter%20concernant%20:%0D%0A-%20Variateurs%20INVT%0D%0A-%20UPS%20INVT%0D%0A-%20SCADA%20/%20cellules%20SIFANG%0D%0A-%20Demarreurs%20SIFANG%0D%0A-%20Moteurs%20LAEG%0D%0A%0D%0AMerci%20de%20me%20recontacter.%0D%0A"
+        >
           <span>Email commercial</span>
           <strong>m.aitbelkacem@gimelec.com</strong>
           <em>Ouvrir la boite mail</em>
         </a>
-        <a class="linkedin-card" href="https://www.linkedin.com/company/110623019/admin/dashboard/" target="_blank" rel="noreferrer">
+        <a
+          class="linkedin-card"
+          href="https://www.linkedin.com/company/110623019/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <span>LinkedIn</span>
           <strong>Contacter GIMPO sur LinkedIn</strong>
         </a>
         <p>Centre des affaires El Qods, Cheraga, Alger, Bu 39 08</p>
+      </div>
+
+      <div class="contact-form-section">
+        <h2>Demande de devis</h2>
+        <form action="mailto:m.aitbelkacem@gimelec.com" method="GET" class="contact-form">
+          <div class="form-group">
+            <label for="name">Nom *</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form-group">
+            <label for="company">Entreprise</label>
+            <input type="text" id="company" name="company" />
+          </div>
+          <div class="form-group">
+            <label for="email">Email *</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+          <div class="form-group">
+            <label for="phone">Téléphone</label>
+            <input type="tel" id="phone" name="phone" />
+          </div>
+          <div class="form-group">
+            <label for="subject">Sujet *</label>
+            <select id="subject" name="subject" required>
+              <option value="">Sélectionnez un sujet</option>
+              <option value="Variateurs INVT">Variateurs INVT</option>
+              <option value="UPS INVT">UPS INVT</option>
+              <option value="SCADA SIFANG">SCADA SIFANG</option>
+              <option value="Demarreurs SIFANG">Demarreurs SIFANG</option>
+              <option value="Moteurs LAEG">Moteurs LAEG</option>
+              <option value="Maintenance">Maintenance</option>
+              <option value="Autre">Autre</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="message">Message *</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+          </div>
+          <button type="submit" class="btn primary">Request a Quotation</button>
+          <div class="form-message" id="form-message"></div>
+        </form>
       </div>
     </footer>
 
