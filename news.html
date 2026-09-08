@@ -1,0 +1,631 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="GIMPO news - actualites, projets, partenariats et innovations industrielles."
+    />
+    <title>GIMPO | News</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="index.html#top" aria-label="GIMPO accueil">
+        <img src="assets/logo.jpg" alt="GIMPO" />
+      </a>
+      <button
+        class="nav-toggle"
+        type="button"
+        aria-label="Ouvrir le menu"
+        data-nav-toggle
+      >
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" data-nav>
+        <a href="index.html#solutions">Solutions</a>
+        <a href="index.html#products">Produits</a>
+        <a href="index.html#partners">Partenaires</a>
+        <a href="index.html#services">Services</a>
+        <a href="index.html#projects">References</a>
+        <a class="active" href="news.html">News</a>
+        <a href="index.html#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main class="news-page" id="top">
+      <section class="news-hero">
+        <div class="news-hero__copy">
+          <p class="eyebrow">GIMPO News</p>
+          <h1>
+            Les dernières actualités, événements et réalisations de GIMPO.
+          </h1>
+          <p>
+            Découvrez les événements organisés par GIMPO, les salons
+            internationaux, les journées techniques, les partenariats
+            industriels ainsi que les innovations technologiques dans les
+            domaines de l'énergie, de l'automatisation industrielle, des postes
+            électriques, des variateurs de vitesse, des moteurs MT/HT et des
+            systèmes de protection.
+          </p>
+          <div class="news-hero__meta">
+            <span>Actualités</span>
+            <span>Événements</span>
+            <span>Industrie &amp; Énergie</span>
+            <span>Innovation</span>
+          </div>
+        </div>
+
+        <aside class="news-carousel" data-news-carousel>
+          <div class="news-carousel__viewport">
+            <figure class="news-carousel__slide active">
+              <img
+                src="public/images/events/salon/group.jpg"
+                alt="Journée Technique GIMPO Sheraton"
+              />
+              <figcaption>
+                <p class="eyebrow">Événement à la une</p>
+                <h2>
+                  Plus de 70 professionnels réunis lors de la Journée Technique
+                  GIMPO au Sheraton Club des Pins.
+                </h2>
+                <p>
+                  Une journée dédiée aux nouvelles technologies des réseaux
+                  électriques, de l'automatisation industrielle et de la
+                  protection des installations électriques.
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="news-carousel__slide">
+              <img
+                src="public/images/events/salon/participants.png"
+                alt="Conférence GIMPO Sheraton"
+              />
+              <figcaption>
+                <p class="eyebrow">Échanges techniques</p>
+                <h2>
+                  Des conférences et démonstrations suivies par les
+                  professionnels du secteur.
+                </h2>
+                <p>
+                  Les participants ont découvert les solutions destinées aux
+                  infrastructures électriques modernes.
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="news-carousel__slide">
+              <img
+                src="public/images/events/salon/pres.jpeg"
+                alt="Accueil des participants"
+              />
+              <figcaption>
+                <p class="eyebrow">Accueil</p>
+                <h2>
+                  Une journée structurée autour de la présentation des
+                  technologies GIMPO.
+                </h2>
+                <p>
+                  L'événement a mis en avant les équipes, les partenaires et les
+                  nouvelles applications industrielles.
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="news-carousel__slide">
+              <img
+                src="public/images/events/salon/pres2.jpeg"
+                alt="Présentation technique"
+              />
+              <figcaption>
+                <p class="eyebrow">Présentation</p>
+                <h2>
+                  Des solutions adaptées aux besoins de l'énergie et de
+                  l'industrie.
+                </h2>
+                <p>
+                  Les échanges ont porté sur l'automatisation, la continuité de
+                  service et l'efficacité énergétique.
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="news-carousel__slide">
+              <img
+                src="public/images/events/salon/pres3.jpeg"
+                alt="Présentation HT"
+              />
+              <figcaption>
+                <p class="eyebrow">Haute tension</p>
+                <h2>
+                  Focus sur les cellules HT, les moteurs MT et les relais de
+                  protection.
+                </h2>
+                <p>
+                  Une ligne de communication claire, orientée fiabilité et
+                  sécurité des installations.
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="news-carousel__slide">
+              <img
+                src="public/images/events/salon/rollup.jpeg"
+                alt="Présentation moteurs"
+              />
+              <figcaption>
+                <p class="eyebrow">Motorisation</p>
+                <h2>
+                  Variateurs de vitesse, moteurs et supervision dans un même
+                  écosystème.
+                </h2>
+                <p>
+                  Un positionnement cohérent pour accompagner les sites
+                  industriels exigeants.
+                </p>
+              </figcaption>
+            </figure>
+            <figure class="news-carousel__slide">
+              <img
+                src="public/images/events/salon/pres4.png"
+                alt="Relais de protection"
+              />
+              <figcaption>
+                <p class="eyebrow">Protection</p>
+                <h2>
+                  Relais numériques, supervision et contrôle-commande en point
+                  d'attention.
+                </h2>
+                <p>
+                  La protection des installations reste au coeur de la valeur
+                  délivrée par GIMPO.
+                </p>
+              </figcaption>
+            </figure>
+          </div>
+          <div class="news-carousel__controls">
+            <button type="button" aria-label="Photo précédente" data-news-prev>
+              &larr;
+            </button>
+            <div class="carousel-dots news-carousel__dots" data-news-dots></div>
+            <button type="button" aria-label="Photo suivante" data-news-next>
+              &rarr;
+            </button>
+          </div>
+        </aside>
+      </section>
+
+      <section class="news-layout">
+        <article class="news-article">
+          <div class="news-article__head">
+            <div>
+              <p class="eyebrow">Événement GIMPO</p>
+              <h2>Journée Technique GIMPO au Sheraton Club des Pins</h2>
+            </div>
+            <div class="news-meta-card">
+              <span>Date</span>
+              <strong>Juillet 2026</strong>
+            </div>
+          </div>
+
+          <div class="news-event-split">
+            <div class="news-article__content">
+              <p class="news-article__lead">
+                GIMPO a organisé avec succès une Journée Technique au Sheraton
+                Club des Pins à Alger, rassemblant plus de 70 ingénieurs,
+                responsables maintenance, exploitants industriels, consultants,
+                bureaux d'études et spécialistes des réseaux électriques.
+              </p>
+
+              <p>
+                Cette rencontre avait pour objectif de présenter les dernières
+                innovations technologiques dans le domaine des équipements
+                électriques industriels, tout en créant un espace d'échange
+                entre les professionnels du secteur énergétique algérien.
+              </p>
+
+              <div class="news-callout">
+                <strong>Au programme</strong>
+                <p>
+                  Cellules haute tension, moteurs moyenne tension, relais de
+                  protection, automatisation des postes, SCADA, variateurs de
+                  vitesse et solutions d'efficacité énergétique.
+                </p>
+              </div>
+
+              <h3>Des technologies adaptées aux industries modernes</h3>
+              <p>
+                Les différentes présentations ont permis de mettre en avant les
+                équipements les plus récents destinés aux secteurs de l'énergie,
+                de l'industrie lourde, des infrastructures critiques, du
+                pompage, du ciment, de la métallurgie et des installations
+                électriques de moyenne tension.
+              </p>
+
+              <p>
+                Les participants ont découvert les nouvelles générations de
+                relais numériques de protection, les architectures de
+                contrôle-commande, ainsi que les meilleures pratiques
+                d'intégration dans des environnements industriels exigeants.
+              </p>
+
+              <h3>Des échanges riches entre professionnels</h3>
+              <p>
+                Au-delà des conférences techniques, cette journée a constitué un
+                véritable espace de rencontre entre les industriels, les
+                exploitants, les ingénieurs, les responsables maintenance et les
+                partenaires technologiques.
+              </p>
+
+              <p>
+                Ces échanges contribuent directement au développement des
+                compétences techniques et au renforcement des relations entre
+                les différents acteurs du secteur énergétique algérien.
+              </p>
+
+              <h3>Une forte mobilisation</h3>
+              <p>
+                Avec plus de <strong>70 participants</strong>, cette Journée
+                Technique confirme l'engagement de GIMPO dans la promotion des
+                nouvelles technologies et dans l'accompagnement des entreprises
+                vers des infrastructures électriques plus performantes, plus
+                intelligentes et plus fiables.
+              </p>
+
+              <p>
+                Nous remercions chaleureusement l'ensemble des participants, nos
+                partenaires technologiques, ainsi que tous les intervenants
+                ayant contribué au succès de cette journée.
+              </p>
+            </div>
+
+            <aside
+              class="news-event-carousel"
+              data-inline-news-carousel="sheraton"
+            >
+              <div class="news-event-carousel__viewport">
+                <figure class="news-event-carousel__slide active">
+                  <img
+                    src="public/images/events/salon/group.jpg"
+                    alt="Groupe de participants au Sheraton"
+                  />
+                </figure>
+                <figure class="news-event-carousel__slide">
+                  <img
+                    src="public/images/events/salon/participants.png"
+                    alt="Participants de la Journée Technique GIMPO"
+                  />
+                </figure>
+                <figure class="news-event-carousel__slide">
+                  <img
+                    src="public/images/events/salon/pres.jpeg"
+                    alt="Accueil des participants au Sheraton"
+                  />
+                </figure>
+                <figure class="news-event-carousel__slide">
+                  <img
+                    src="public/images/events/salon/pres2.jpeg"
+                    alt="Présentation technique GIMPO"
+                  />
+                </figure>
+              </div>
+              <div class="news-event-carousel__controls">
+                <button
+                  type="button"
+                  aria-label="Photo précédente"
+                  data-inline-prev
+                >
+                  &larr;
+                </button>
+                <div
+                  class="carousel-dots news-event-carousel__dots"
+                  data-inline-dots
+                ></div>
+                <button
+                  type="button"
+                  aria-label="Photo suivante"
+                  data-inline-next
+                >
+                  &rarr;
+                </button>
+              </div>
+            </aside>
+          </div>
+        </article>
+      </section>
+
+      <section class="news-layout" id="pollutec">
+        <article class="news-article">
+          <div class="news-article__head">
+            <div>
+              <p class="eyebrow">Salon international</p>
+              <h2>GIMPO participe au Salon International POLLUTEC Algérie</h2>
+            </div>
+            <div class="news-meta-card">
+              <span>Date</span>
+              <strong>2026</strong>
+            </div>
+          </div>
+
+          <div class="news-event-split">
+            <div class="news-article__content">
+              <p class="news-article__lead">
+                À l'occasion du Salon International POLLUTEC Algérie, GIMPO a eu
+                le plaisir de présenter son expertise dans le domaine des
+                équipements électriques, de l'automatisation industrielle et des
+                solutions énergétiques innovantes.
+              </p>
+
+              <p>
+                Cet événement majeur a permis de rencontrer de nombreux
+                industriels, bureaux d'études, intégrateurs, exploitants et
+                décideurs du secteur de l'énergie venus découvrir les solutions
+                proposées par GIMPO.
+              </p>
+
+              <h3>Les solutions présentées</h3>
+              <ul class="news-list">
+                <li>Cellules Haute Tension</li>
+                <li>Tableaux électriques MT &amp; BT</li>
+                <li>Variateurs de vitesse industriels</li>
+                <li>Soft Starters</li>
+                <li>Relais numériques de protection</li>
+                <li>Moteurs Moyenne Tension</li>
+                <li>Automates industriels PLC</li>
+                <li>Systèmes SCADA</li>
+                <li>Supervision industrielle</li>
+                <li>Solutions d'efficacité énergétique</li>
+              </ul>
+
+              <h3>Un salon riche en échanges</h3>
+              <p>
+                Tout au long du salon, les équipes GIMPO ont accueilli de
+                nombreux visiteurs afin de présenter leurs dernières
+                réalisations, leurs partenaires internationaux et leurs
+                solutions destinées aux secteurs de l'énergie, de l'industrie,
+                de l'eau, des infrastructures et des procédés industriels.
+              </p>
+
+              <h3>Vers une industrie plus performante</h3>
+              <p>
+                Grâce à sa participation à POLLUTEC, GIMPO confirme son
+                engagement dans le développement de solutions innovantes
+                répondant aux exigences de l'industrie 4.0, de la digitalisation
+                et de la transition énergétique.
+              </p>
+            </div>
+
+            <aside
+              class="news-event-carousel"
+              data-inline-news-carousel="pollutec"
+            >
+              <div class="news-event-carousel__viewport">
+                <figure class="news-event-carousel__slide active">
+                  <img
+                    src="public/images/events/pollutec/stand.jpeg"
+                    alt="Présentation haute tension au salon"
+                  />
+                </figure>
+                <figure class="news-event-carousel__slide">
+                  <img
+                    src="public/images/events/pollutec/stand2.jpeg"
+                    alt="Espace GIMPO au salon"
+                  />
+                </figure>
+                <figure class="news-event-carousel__slide">
+                  <img
+                    src="public/images/events/pollutec/stand3.jpeg"
+                    alt="Solutions SCADA et automatisation"
+                  />
+                </figure>
+                <figure class="news-event-carousel__slide">
+                  <img
+                    src="public/images/events/pollutec/stand4.jpeg"
+                    alt="Projet industriel présenté"
+                  />
+                </figure>
+                <figure class="news-event-carousel__slide">
+                  <img
+                    src="public/images/events/pollutec/stand5.jpeg"
+                    alt="Discussion avec les visiteurs"
+                  />
+                </figure>
+                <figure class="news-event-carousel__slide">
+                  <img
+                    src="public/images/events/pollutec/stand7.jpeg"
+                    alt="Stand GIMPO au salon POLLUTEC"
+                  />
+                </figure>
+                <figure class="news-event-carousel__slide">
+                  <img
+                    src="public/images/events/pollutec/stand8.jpeg"
+                    alt="Echanges sur le stand GIMPO"
+                  />
+                </figure>
+                <figure class="news-event-carousel__slide">
+                  <video controls muted playsinline preload="metadata">
+                    <source
+                      src="public/images/events/pollutec/video.mp4"
+                      type="video/mp4"
+                    />
+                    Votre navigateur ne prend pas en charge la lecture video.
+                  </video>
+                </figure>
+                <figure class="news-event-carousel__slide">
+                  <video controls muted playsinline preload="metadata">
+                    <source
+                      src="public/images/events/pollutec/video2.mp4"
+                      type="video/mp4"
+                    />
+                    Votre navigateur ne prend pas en charge la lecture video.
+                  </video>
+                </figure>
+              </div>
+              <div class="news-event-carousel__controls">
+                <button
+                  type="button"
+                  aria-label="Photo précédente"
+                  data-inline-prev
+                >
+                  &larr;
+                </button>
+                <div
+                  class="carousel-dots news-event-carousel__dots"
+                  data-inline-dots
+                ></div>
+                <button
+                  type="button"
+                  aria-label="Photo suivante"
+                  data-inline-next
+                >
+                  &rarr;
+                </button>
+              </div>
+            </aside>
+          </div>
+        </article>
+
+        <aside class="news-sidebar">
+          <section class="news-widget">
+            <p class="eyebrow">Derniers sujets</p>
+            <a class="news-widget__item" href="#top">
+              <img src="assets/projets/p2.png" alt="Projet Hounaine" />
+              <div>
+                <strong>Projet de dessalement et assistance terrain</strong>
+                <span>Réglage, mise en service et support sur site.</span>
+              </div>
+            </a>
+            <a class="news-widget__item" href="#top">
+              <img src="assets/projets/p3.png" alt="Projet Chlef" />
+              <div>
+                <strong>Maintenance des installations lourdes</strong>
+                <span
+                  >Une expertise adaptée aux moteurs de forte puissance.</span
+                >
+              </div>
+            </a>
+          </section>
+        </aside>
+      </section>
+
+      <section class="news-grid-section band">
+        <div class="section-heading">
+          <p class="eyebrow">Dernières actualités</p>
+          <h2>Découvrez les dernières activités de GIMPO.</h2>
+          <p>
+            Suivez les événements, réalisations, projets industriels et
+            partenariats qui illustrent l'engagement de GIMPO dans le
+            développement des infrastructures électriques et de l'automatisation
+            industrielle.
+          </p>
+        </div>
+
+        <div class="news-grid">
+          <article class="news-card">
+            <img src="assets/project-sorasucre.jpg" alt="Projet industriel" />
+            <div>
+              <p class="eyebrow">Projet</p>
+              <h3>
+                Exécution industrielle du cahier des charges jusqu'au démarrage
+              </h3>
+              <p>
+                Fabrication, essais, intégration et validation sur des
+                environnements de production exigeants.
+              </p>
+            </div>
+          </article>
+          <article class="news-card">
+            <img src="assets/invt-drives-ups.jpg" alt="INVT UPS" />
+            <div>
+              <p class="eyebrow">Technologie</p>
+              <h3>Variateurs et UPS pour la continuité d'alimentation</h3>
+              <p>
+                Les architectures INVT apportent souplesse, supervision et
+                efficacité énergétique.
+              </p>
+            </div>
+          </article>
+          <article class="news-card">
+            <img src="assets/laeg-motors.jpg" alt="Moteurs LAEG" />
+            <div>
+              <p class="eyebrow">Partenariat</p>
+              <h3>
+                LAEG et les moteurs électriques pour les applications exigeantes
+              </h3>
+              <p>
+                Une approche orientée rendement, robustesse et support technique
+                sur les installations critiques.
+              </p>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer">
+      <div>
+        <img src="assets/logo.jpg" alt="GIMPO" />
+        <p>
+          Solutions electriques et industrielles pour une industrie moderne,
+          connectee et performante.
+        </p>
+        <div class="footer-social-icons" aria-label="Réseaux et contact">
+          <a
+            class="social-icon"
+            href="https://www.linkedin.com/company/110623019/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="LinkedIn GIMPO"
+          >
+            in
+          </a>
+          <a
+            class="social-icon"
+            href="mailto:m.aitbelkacem@gimelec.com?subject=Demande%20de%20consultation%20GIMPO"
+            aria-label="Envoyer un email à GIMPO"
+          >
+            ✉
+          </a>
+        </div>
+      </div>
+      <div class="contact-card">
+        <h2>Contact</h2>
+        <div class="contact-actions">
+          <a class="contact-line" href="tel:+213560954332">
+            <span>Telephone principal</span>
+            <strong>+213 560 954 332</strong>
+          </a>
+        </div>
+        <div class="contact-actions">
+          <a class="contact-line" href="tel:+2130550480163">
+            <span>Mobile technique</span>
+            <strong>+213 0 550 48 01 63</strong>
+          </a>
+        </div>
+        <a
+          class="mail-card"
+          href="mailto:m.aitbelkacem@gimelec.com?subject=Demande%20de%20consultation%20GIMPO"
+        >
+          <span>Email commercial</span>
+          <strong>m.aitbelkacem@gimelec.com</strong>
+          <em>Ouvrir la boite mail</em>
+        </a>
+        <a
+          class="linkedin-card"
+          href="https://www.linkedin.com/company/110623019/"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <span>LinkedIn</span>
+          <strong>Contacter GIMPO sur LinkedIn</strong>
+        </a>
+        <p>Centre des affaires El Qods, Cheraga, Alger, Bu 39 08</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
